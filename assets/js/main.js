@@ -1,8 +1,8 @@
 // Efecto de typing
 const roles = [
-    'Transformando datos en decisiones...',
-    'Optimizando procesos de negocio...',
-    'Generando valor medible...',
+    'Transformando datos en decisiones',
+    'Optimizando procesos de negocio',
+    'Generando valor medible',
     'Hablemos ;)'
 ];
 
