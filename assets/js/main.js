@@ -1,3 +1,30 @@
+// Mobile Menu Functionality
+const hamburger = document.querySelector('.hamburger');
+const navLinks = document.querySelector('.nav-links');
+const navLinksItems = document.querySelectorAll('.nav-links a');
+
+hamburger.addEventListener('click', () => {
+    // Toggle active class
+    hamburger.classList.toggle('active');
+    navLinks.classList.toggle('active');
+});
+
+// Cerrar menú al hacer click en un enlace
+navLinksItems.forEach(link => {
+    link.addEventListener('click', () => {
+        hamburger.classList.remove('active');
+        navLinks.classList.remove('active');
+    });
+});
+
+// Cerrar menú al hacer scroll
+window.addEventListener('scroll', () => {
+    if (navLinks.classList.contains('active')) {
+        hamburger.classList.remove('active');
+        navLinks.classList.remove('active');
+    }
+});
+
 // Efecto de typing
 const roles = [
     'Transformando datos en decisiones',

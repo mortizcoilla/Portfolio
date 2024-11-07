@@ -1,3 +1,118 @@
+|-- .git
+    |-- COMMIT_EDITMSG
+    |-- FETCH_HEAD
+    |-- HEAD
+    |-- ORIG_HEAD
+    |-- config
+    |-- description
+    |-- hooks
+        |-- applypatch-msg.sample
+        |-- commit-msg.sample
+        |-- fsmonitor-watchman.sample
+        |-- post-update.sample
+        |-- pre-applypatch.sample
+        |-- pre-commit.sample
+        |-- pre-merge-commit.sample
+        |-- pre-push.sample
+        |-- pre-rebase.sample
+        |-- pre-receive.sample
+        |-- prepare-commit-msg.sample
+        |-- push-to-checkout.sample
+        |-- update.sample
+    |-- index
+    |-- info
+        |-- exclude
+    |-- logs
+        |-- HEAD
+        |-- refs
+            |-- heads
+                |-- main
+            |-- remotes
+                |-- origin
+                    |-- main
+    |-- objects
+        |-- 05
+            |-- 269367bb7ba2d82b950fe74e5b47f8343d5198
+        |-- 1f
+            |-- 02ea16998aeb10df22468d233409e4a1857687
+        |-- 21
+            |-- e2648852bf1c041116c12a7239b5e734fc584b
+        |-- 2f
+            |-- 40a5d22d731e9f668a7c2d6d450afb19cc007c
+        |-- 36
+            |-- bdaacef39290bc9120708635c1df982edd4886
+        |-- 37
+            |-- f083685c9b95a68654cd68fcfad7c6d9a716de
+        |-- 3f
+            |-- 5cf5a64e41984d4728447052098cf2afccea9b
+        |-- 4d
+            |-- 4e74e5f534c345cae6760d7f72bc81f532a2e2
+        |-- 50
+            |-- 83bb7f4e896039790b4b30dae3e539814522b4
+        |-- 56
+            |-- eed53374473590d6c378fa909241f64f8c8438
+        |-- 65
+            |-- fb2b1de89bc947bc43d3a08641f703b648cf25
+        |-- 6d
+            |-- b44369c7cdb0c1c8ba9065539c493abe661a94
+        |-- 6f
+            |-- aebd3d82046922ea3a62a233949b1bf86bfb88
+        |-- 71
+            |-- d1430024ac1a5ab9c89a870c148a271396a1cf
+        |-- 80
+            |-- 509ddac0fbee797a0d937f5efd2263dde8ef31
+        |-- 83
+            |-- ce53b11a3bc2a69cfe15793f6718d5f6240305
+        |-- 89
+            |-- 7f5a117d15a75a1439347b21ee83cdd49ad317
+        |-- 8c
+            |-- 5bbcf98af6c4bef401619d82c4d20b4dadff69
+        |-- 8f
+            |-- 12fdcd3e909831f8787ed56029d766778cae6d
+        |-- 92
+            |-- ed0520ed495eba412c8eec56563c0e939c1d3a
+        |-- 93
+            |-- 587283a296d43f5ccfaa581754f179c04fc292
+        |-- 98
+            |-- f9675c31fe5025bba061a93cf240a35b064365
+        |-- ac
+            |-- 3a9d8d5bb9f515c3110e453294b104e38bbda3
+        |-- b4
+            |-- 15a4bcf7a9611207592f54cde04a35f05d26d5
+            |-- bab1c5abe4ca82c63d8d5a89e3494418157704
+        |-- b5
+            |-- b5a48cf6aff7b60c3cf790522e4d1146e08214
+        |-- b8
+            |-- dc376e5fa97df79e8212805c1889d320c725e4
+        |-- ba
+            |-- 8225fef5ae018f6aa31f586dba22fd4f0af35c
+        |-- c2
+            |-- 92adc2eaa447f2e37ca5bf4a32d1526b9a7770
+        |-- d6
+            |-- ee588ade52f742c4bf2b9af0fa96326dfdb6fe
+        |-- df
+            |-- e0770424b2a19faf507a501ebfc23be8f54e7b
+        |-- e6
+            |-- 9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+        |-- ef
+            |-- 2c367235a07166bec44e76a7bc9aff61294765
+        |-- ff
+            |-- 50e0aba6a1dda44b8a82969088c1687df96df4
+        |-- info
+        |-- pack
+    |-- refs
+        |-- heads
+            |-- main
+        |-- remotes
+            |-- origin
+                |-- main
+        |-- tags
+|-- .github
+    |-- workflows
+        |-- pages.yml
+|-- ProfesionalPortfolio
+    |-- .gitattributes
+    |-- README.md
 |-- assets
     |-- fonts
     |-- icons
@@ -7,12 +122,17 @@
         |-- data-analytics.jpeg
         |-- data-engineering.jpeg
         |-- data-science.jpeg
+        |-- fondo.jpeg
         |-- machine-learning.jpeg
     |-- js
+        |-- main.js
     |-- styles
         |-- styles.css
     |-- videos
         |-- fondo.mp4
 |-- estructura.py
 |-- index.html
-|-- script.js
+|-- pages
+    |-- a.html
+    |-- b.html
+    |-- c.html
